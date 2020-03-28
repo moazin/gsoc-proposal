@@ -43,11 +43,8 @@ First, I will start with adding XML support to new GraphiQL which will have Mona
 This project is a prrof that i have knowledge of GraphQL. I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. GraphQL is used to avoid under-fetching and over-fetching. Links are given here.
 
 - [AWS : GraphQL Hospital Server](http://52.66.182.42:3003) 
-
 - [AWS : GraphQL Hospital Client](http://52.66.182.42:3001)
-
 - [AWS: GraphiQL](http://52.66.182.42:3003/graphiql)
-
 - [Github: API Source](https://github.com/alinauroz/graphql-hospital)
 
 Here is a snapshop of the client.
