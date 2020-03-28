@@ -32,7 +32,11 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 
 ### Adding Support from XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
-This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check with XML, YAML, MDX, TOML, ProtoBuf as well as JSON result. Currently GraphiQL is using CodeMirror but it is shifting to Monaco Editor. 
+This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check with XML, YAML, MDX, TOML, ProtoBuf as well as JSON result.
+
+**My plan to accompalish this Task**
+
+First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. 
 
 ### Test Project
 
