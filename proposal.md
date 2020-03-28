@@ -27,12 +27,12 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 
 ### Opensource Projects
 - Math Trade with Trade Maximizer, currently implemented using Couchbase. This ensures maximum possible trades between people. Both API and a simple frontend is available on github.
-- HSM, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
+- Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
 ### Test Project
 
-I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. Links are given here.
+I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. GraphQL is used to avoid under-fetching and over-fetching. Links are given here.
 
 - [AWS : GraphQL Hospital Server](http://52.66.182.42:3003) 
 
@@ -41,6 +41,10 @@ I have created both server and client. They are deployed on AWS. This is a basic
 - [AWS: GraphiQL](http://52.66.182.42:3003/graphiql)
 
 - [Github: API Source](https://github.com/alinauroz/graphql-hospital)
+
+Here is a snapshop of the client.
+
+! [GraphQL Hospital Client](./client.png)
 
 
 
