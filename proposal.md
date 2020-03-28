@@ -34,10 +34,14 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 
 I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. Links are given here.
 
-[AWS : API](http://52.66.182.42:3003)
+[AWS : API](http://52.66.182.42:3003) 
+
 [AWS : Client](http://52.66.182.42:3001)
+
 [AWS: GraphiQL](http://52.66.182.42:3003/graphiql)
+
 [Github: API Source](https://github.com/alinauroz/graphql-hospital)
+
 
 
 
