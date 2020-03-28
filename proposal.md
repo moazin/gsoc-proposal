@@ -30,9 +30,9 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
-### Adding Support from XML, YAML, MDX, ProtoBuf to GraphiQL 
+### Adding Support from XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
-
+This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check with XML, YAML, MDX, TOML, ProtoBuf as well as JSON result. Currently GraphiQL is using CodeMirror but it is shifting to Monaco Editor. 
 
 ### Test Project
 
