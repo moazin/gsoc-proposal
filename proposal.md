@@ -44,7 +44,8 @@ I have created both server and client. They are deployed on AWS. This is a basic
 
 Here is a snapshop of the client.
 
-!  [GraphQL Hospital Client](client.png)
+![inkscape drawings](./client.png)
+![inkscape drawings](./client.PNG)
 
 
 
