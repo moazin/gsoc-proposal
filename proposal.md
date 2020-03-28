@@ -32,11 +32,15 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 
 ### Adding Support from XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
-This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check with XML, YAML, MDX, TOML, ProtoBuf as well as JSON result.
+This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check XML, YAML, MDX, TOML, ProtoBuf as well as JSON results with GraphiQL.
 
 **My plan to accompalish this Task**
 
-First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. 
+First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. Currently, there is a fetcher query in _GraphiQl.tsx_, that fecthes data and checks whether it is a valid JSON or not. If response is XML with some other format, it makes the response red which indicates that there is some error. So far, I have done some changes it to make it generic. Once XML support is added, it will be very easy to add YAML, TOML and MDX support.
+
+Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, it will become
+
+![][xml-mode.png]
 
 ### Test Project
 
