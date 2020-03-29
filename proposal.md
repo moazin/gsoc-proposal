@@ -1,6 +1,6 @@
 # GraphiQL Plugins
 
-Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](# Adding-Support-of-XML,-YAML, MDX,-TOML,-ProtoBuf-to-GraphiQL)
+Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#test-project)
 
 ## About Me
 
@@ -38,7 +38,7 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 
 This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to view XML, YAML, MDX, TOML, ProtoBuf as well as JSON results in GraphiQL.
 
-**My plan to accompalish this Task**
+**My plan to accomplish this Task**
 
 First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. Currently, there is a fetcher query in _GraphiQl.tsx_, that fecthes data and checks whether it is a valid JSON or not. If response is XML with some other format, it makes the response red which indicates that there is some error. So far, I have done some changes it to make it generic. Once XML support is added, it will be very easy to add YAML, TOML and MDX support.
 
