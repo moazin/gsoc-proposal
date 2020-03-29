@@ -1,6 +1,6 @@
 # GraphiQL Plugins
 
-Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#Adding-Support-of-XML,-YAML, MDX,-TOML,-ProtoBuf-to-GraphiQL)
+Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](# Adding-Support-of-XML,-YAML, MDX,-TOML,-ProtoBuf-to-GraphiQL)
 
 ## About Me
 
