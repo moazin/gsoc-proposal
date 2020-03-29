@@ -11,7 +11,7 @@ I am a senior Engineering student at Pakistan Institute of Engineering and Appli
 ### Tools
 
 
-- **Programming Languages**: Javascript, Typescript, NodeJS, Deno
+- **Programming Languages**: Javascript (NodeJS), Typescript
 - **Libraries**: React, Redux
 - **Cloud** : AWS, Heroku, Google Cloud
 
@@ -30,15 +30,19 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
-### Adding Support from XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
+### Adding Support of XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
-This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to check XML, YAML, MDX, TOML, ProtoBuf as well as JSON results with GraphiQL.
+This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to view XML, YAML, MDX, TOML, ProtoBuf as well as JSON results in GraphiQL.
 
 **My plan to accompalish this Task**
 
 First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. Currently, there is a fetcher query in _GraphiQl.tsx_, that fecthes data and checks whether it is a valid JSON or not. If response is XML with some other format, it makes the response red which indicates that there is some error. So far, I have done some changes it to make it generic. Once XML support is added, it will be very easy to add YAML, TOML and MDX support.
 
-Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, it will become
+Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, adding ProtoBuf support will be easy. For testing purposes, I will have to modify express-graphql and make it able to send results in different formats. Tab options is not available in current version of GraphiQL. 
+
+### Why should you pick me?
+
+I have understanding of current GraphiQL codebase and i have added a support of XML to GraphiQL. To test this, i have done some changes in express-graphql to send xml response. Below is a glimpse of my work.
 
 ![XML Mode](./xml-mode.png)
 
@@ -51,7 +55,7 @@ This project is a prrof that i have knowledge of GraphQL. I have created both se
 - [AWS: GraphiQL](http://52.66.182.42:3003/graphiql)
 - [Github: API Source](https://github.com/alinauroz/graphql-hospital)
 
-Here is a snapshop of the client.
+Here is a snapshot of the client.
 
 ![GraphQL Client](./client.png)
 
