@@ -40,7 +40,7 @@ First, I will start with adding XML support to new GraphiQL which will have Mona
 
 Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, it will become
 
-![][xml-mode.png]
+![XML Mode](./xml-mode.png)
 
 ### Test Project
 
@@ -53,7 +53,7 @@ This project is a prrof that i have knowledge of GraphQL. I have created both se
 
 Here is a snapshop of the client.
 
-![inkscape drawings](./client.png)
+![GraphQL Client](./client.png)
 
 
 
