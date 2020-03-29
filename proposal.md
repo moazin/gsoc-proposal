@@ -1,6 +1,6 @@
 # GraphiQL Plugins
 
-Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#test-project)
+Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#)
 
 ## About Me
 
@@ -34,6 +34,8 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
+#
+
 ### Adding Support of XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
 This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, will allow developers to view XML, YAML, MDX, TOML, ProtoBuf as well as JSON results in GraphiQL.
@@ -44,7 +46,7 @@ First, I will start with adding XML support to new GraphiQL which will have Mona
 
 Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, adding ProtoBuf support will be easy. For testing purposes, I will have to modify express-graphql and make it able to send results in different formats. 
 
-Tab option is not available in current version of GraphiQL however this is present in upcoming GraphiQL. 
+Tab option is not available in current version of GraphiQL however this is present in upcoming GraphiQL. My goal is make this plugin work with each tab separately. For example, ResultViewer mode of TAB1 is YAML and that of TAB2 is JSON. When developer switches to TAB1, ResultViewer mode will be set to YAML and similarly when tab is switched to TAB2, the mode will be changed to JSON automatically.
 
 **Timeline**
 
