@@ -36,7 +36,7 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - **Event Websites** : Developed event websites for university. More than 2000 users have registered using these websites.
 
 ### Opensource Projects
-- Math Trade with Trade Maximizer, currently implemented using Couchbase. This ensures maximum possible trades between people. Both API and a simple frontend is available on [github](https://github.com/alinauroz/crowd-trade).
+- Math Trade with Trade Maximizer, currently implemented using Couchbase. This ensures maximum possible trades between people. Both API and a simple frontend is available on [github](https://github.com/alinauroz/crowd_trade).
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
