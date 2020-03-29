@@ -1,6 +1,10 @@
+# GraphiQL Plugins
+
+Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#Adding-Support-of-XML,-YAML, MDX,-TOML,-ProtoBuf-to-GraphiQL)
+
 ## About Me
 
-I am a senior Engineering student at Pakistan Institute of Engineering and Applied Sciences, Islamabad.
+I am a senior Engineering student at Pakistan Institute of Engineering and Applied Sciences. I have a deep interest in programming since I was in middle school. I have completed several software engineering projects. I have experience of full stack web development, mobile app development and embedded system programming. 
 
 ### Personal Details
 - **Legal Name** : Ali Nauroze
@@ -26,7 +30,7 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - **Event Websites** : Developed event websites for university. More than 2000 users have registered using these websites.
 
 ### Opensource Projects
-- Math Trade with Trade Maximizer, currently implemented using Couchbase. This ensures maximum possible trades between people. Both API and a simple frontend is available on github.
+- Math Trade with Trade Maximizer, currently implemented using Couchbase. This ensures maximum possible trades between people. Both API and a simple frontend is available on [github](https://github.com/alinauroz/crowd-trade).
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
@@ -38,23 +42,25 @@ This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, 
 
 First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. Currently, there is a fetcher query in _GraphiQl.tsx_, that fecthes data and checks whether it is a valid JSON or not. If response is XML with some other format, it makes the response red which indicates that there is some error. So far, I have done some changes it to make it generic. Once XML support is added, it will be very easy to add YAML, TOML and MDX support.
 
-Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, adding ProtoBuf support will be easy. For testing purposes, I will have to modify express-graphql and make it able to send results in different formats. Tab options is not available in current version of GraphiQL however they are present in upcoming GraphiQL. There are two options how this plugin with work with them.
+Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, adding ProtoBuf support will be easy. For testing purposes, I will have to modify express-graphql and make it able to send results in different formats. 
+
+Tab option is not available in current version of GraphiQL however this is present in upcoming GraphiQL. 
 
 **Timeline**
 
-_Community Bonding Period:_ The best way of community bonding in an opensource organization is to read code, learn from it, fix issues and participate in discussions. I will follow this 
+_Community Bonding Period:_ The best way of community bonding in an opensource organization is to read code, learn from it, fix issues and participate in discussions. I will be doing these things in community bonding period.
 
-_Week 1-2:_ Modifying GraphQL to send different types of reponses  so that we can view them in GraphiQL
+_Week 1:_ Modifying GraphQL to send different types of reponses  so that we can view them in GraphiQL
 
-_Week 3-4:_ Adding support of XML to new GraphiQL
+_Week 2-3:_ Adding support of XML to new GraphiQL
 
-_Week 5-7:_ Adding support for MDX, YAML and TOML
+_Week 4-6:_ Adding support for MDX, YAML and TOML
 
-_Week 8-9:_ Adding support for ProtoBuf. This includes syntax highlighting for ProtoBuf in MoncaEditor as well.
+_Week 7-8:_ Adding support for ProtoBuf. This includes syntax highlighting for ProtoBuf in MoncaEditor as well.
 
-_Week 10-11:_ Making this plugin to work with each Tab seapratrly.
+_Week 9-10:_ Making this plugin to work with each Tab seapratrly.
 
-_Week 12:_ Testing and Documentation
+_Week 11-12:_ Testing and Documentation
 
 ### Why should you pick me?
 
@@ -64,7 +70,7 @@ I have understanding of current GraphiQL codebase and i have added a support of 
 
 ### Test Project
 
-This project is a prrof that i have knowledge of GraphQL. I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. GraphQL is used to avoid under-fetching and over-fetching. Links are given here.
+This project is a proof that i have knowledge of GraphQL. I have created both server and client. They are deployed on AWS. This is a basic app. API provides information of patients, hospitals and statistics. New patients and hospitals can be added using mutations. GraphQL is used to avoid under-fetching and over-fetching. Links are given here.
 
 - [AWS : GraphQL Hospital Server](http://52.66.182.42:3003) 
 - [AWS : GraphQL Hospital Client](http://52.66.182.42:3001)
