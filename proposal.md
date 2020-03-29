@@ -45,10 +45,15 @@ Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I h
 _Community Bonding Period:_ The best way of community bonding in an opensource organization is to read code, learn from it, fix issues and participate in discussions. I will follow this 
 
 _Week 1-2:_ Modifying GraphQL to send different types of reponses  so that we can view them in GraphiQL
+
 _Week 3-4:_ Adding support of XML to new GraphiQL
+
 _Week 5-7:_ Adding support for MDX, YAML and TOML
+
 _Week 8-9:_ Adding support for ProtoBuf. This includes syntax highlighting for ProtoBuf in MoncaEditor as well.
+
 _Week 10-11:_ Making this plugin to work with each Tab seapratrly.
+
 _Week 12:_ Testing and Documentation
 
 ### Why should you pick me?
