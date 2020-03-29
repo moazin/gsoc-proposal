@@ -48,6 +48,8 @@ This package, lets name it _GraphiQLHuc (Huc is latin word, meaning anywhere)_, 
 
 **My plan to accomplish this Task**
 
+_GraphiQL Plugin Framework is not available at the time of writing this proposal. There might be some changes in plan when the framework will be available._
+
 First, I will start with adding XML support to new GraphiQL which will have Monaco Editor. Currently, there is a fetcher query in _GraphiQl.tsx_, that fecthes data and checks whether it is a valid JSON or not. If response is XML or in some other format, it makes the response red and views it as an error. So far, I have done some changes to make it generic. Once XML support is added, it will be easy to add YAML, TOML and MDX support.
 
 Monaco Editor does not have syntax highlighting for ProtoBuf by default. So, I have to add Syntax Highlighting for ProtoBuf to Monaco Editor. Once it is added, adding ProtoBuf support will be easy. For testing purposes, I will have to modify express-graphql and make it able to send results in different formats. 
