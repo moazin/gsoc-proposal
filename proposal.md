@@ -1,6 +1,6 @@
 # GraphiQL Plugins
 
-Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#)
+Google Summer of Code Proposal to GraphQL. This propoosal contains a brief introduction of me as well. You can jump to the project [here](#project)
 
 ## About Me
 
@@ -34,7 +34,7 @@ _I have experience of many other programming langauges such as C++, Java, PHP. B
 - Hardware Security Module, this project's main purpose is to write encryption and hashing algorithms that can run on small microcontrollers
 - [Feat: Added XML support to Graphiql](https://github.com/graphql/graphiql/pull/1430)
 
-#
+# Project
 
 ### Adding Support of XML, YAML, MDX, TOML, ProtoBuf to GraphiQL
 
